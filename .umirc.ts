@@ -8,4 +8,5 @@ export default defineConfig({
   npmClient: "cnpm",
   base: "/mi_diy/",
   publicPath: "/mi_diy/",
+  targets: { chrome: 67 },
 });
