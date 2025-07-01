@@ -8,7 +8,7 @@
     "setup": "umi setup",
     "start": "npm run dev",
     "deploy:raw": "gh-pages -d dist -f",
-    "deploy": "umi build && deploy:raw"
+    "deploy": "umi build && npm run deploy:raw"
   },
   "dependencies": {
     "antd": "^5.26.3",
