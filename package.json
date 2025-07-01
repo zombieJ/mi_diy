@@ -1,6 +1,10 @@
 {
   "private": true,
   "author": "二货机器人 <smith3816@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zombieJ/mi_diy.git"
+  },
   "scripts": {
     "dev": "umi dev",
     "build": "umi build",
