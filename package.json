@@ -1,17 +1,13 @@
 {
   "private": true,
   "author": "二货机器人 <smith3816@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zombieJ/mi_diy.git"
-  },
   "scripts": {
     "dev": "umi dev",
     "build": "umi build",
     "postinstall": "umi setup",
     "setup": "umi setup",
     "start": "npm run dev",
-    "deploy": "umi build && gh-pages -d dist -r"
+    "deploy": "umi build && gh-pages -d dist"
   },
   "dependencies": {
     "antd": "^5.26.3",
