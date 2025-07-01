@@ -6,14 +6,17 @@
     "build": "umi build",
     "postinstall": "umi setup",
     "setup": "umi setup",
-    "start": "npm run dev"
+    "start": "npm run dev",
+    "deploy:gitee": "gh-pages -d dist -r https://gitee.com/zombiej/mi_diy.git"
   },
   "dependencies": {
+    "antd": "^5.26.3",
     "umi": "^4.4.11"
   },
   "devDependencies": {
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
+    "gh-pages": "^6.3.0",
     "typescript": "^5.0.3"
   }
 }

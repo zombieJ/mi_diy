@@ -1,10 +1,15 @@
-import { Link, Outlet } from 'umi';
-import styles from './index.less';
+import { Link, Outlet } from "umi";
+import styles from "./index.less";
+import "antd/dist/reset.css";
 
 export default function Layout() {
   return (
-    <div className={styles.navs}>
-      <ul>
+    <div
+      style={{
+        padding: 32,
+      }}
+    >
+      {/* <ul>
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -14,7 +19,7 @@ export default function Layout() {
         <li>
           <a href="https://github.com/umijs/umi">Github</a>
         </li>
-      </ul>
+      </ul> */}
       <Outlet />
     </div>
   );
