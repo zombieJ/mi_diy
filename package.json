@@ -7,7 +7,8 @@
     "postinstall": "umi setup",
     "setup": "umi setup",
     "start": "npm run dev",
-    "deploy": "umi build && gh-pages -d dist"
+    "deploy:raw": "gh-pages -d dist -f",
+    "deploy": "umi build && deploy:raw"
   },
   "dependencies": {
     "antd": "^5.26.3",

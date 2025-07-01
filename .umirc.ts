@@ -5,5 +5,7 @@ export default defineConfig({
     { path: "/", component: "index" },
     { path: "/list", component: "list" },
   ],
-  npmClient: 'cnpm',
+  npmClient: "cnpm",
+  base: "/mi_diy/",
+  publicPath: "/mi_diy/",
 });
